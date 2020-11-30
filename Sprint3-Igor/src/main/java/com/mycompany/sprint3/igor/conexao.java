@@ -9,7 +9,7 @@ public class conexao {
     public conexao() {
         dataSource = new BasicDataSource();
         dataSource.setDriverClassName("com.mysql.cj.jdbc.Driver");
-        dataSource.setUrl("jdbc:mysql://54.237.44.217:3306/sprintigor?useTimezone=true&serverTimezone=UTC");
+        dataSource.setUrl("jdbc:mysql://54.173.83.99:3306/sprintigor?useTimezone=true&serverTimezone=UTC");
         dataSource.setUsername("root");
         dataSource.setPassword("urubu100");
     }
